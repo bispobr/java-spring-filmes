@@ -3,6 +3,8 @@ package com.example.filme.model;
 import lombok.*;
 
 @Getter
+@Setter
+@NoArgsConstructor
 @AllArgsConstructor
 public class Filme {
     private String title;
